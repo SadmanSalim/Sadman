@@ -35,4 +35,24 @@
         background-color: #000;
         color: #fff;
     }
+
+    /* skills start */
+    #skills h3{
+        font-size: 28px;
+        text-align: center;
+        margin: 60px 0 0;
+        }
+        #skills h3 span{
+            font-size: 28px;
+        }
+        #skills .skill_icons a{
+        border-radius: 4px;
+        padding: 24px;
+        width: 161px;
+        height: 160px;
+        margin: 20px auto 0;
+        }
+        #skills .skill_icons a:hover iconify-icon{
+            transform: translateY(20px);
+        }
     }

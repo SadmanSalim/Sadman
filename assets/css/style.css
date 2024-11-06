@@ -182,3 +182,52 @@ transition: 0.3s;
     background-color: #000;
     color: #fff;
 }
+/* skills start */
+#skills h3{
+font-weight: 400;
+font-size: 48px;
+line-height: 117%;
+letter-spacing: -0.02em;
+color: var(--primary-black);
+text-align: center;
+margin: 80px 0 0;
+}
+#skills h3 span{
+font-weight: 800;
+font-size: 48px;
+line-height: 117%;
+letter-spacing: -0.02em;
+}
+#skills .skill_icons a{
+    border: 2px solid var(--primary-black);
+border-radius: 4px;
+padding: 24px;
+width: 186px;
+height: 186px;
+font-size: 56px;
+text-align: center;
+margin: 60px 0 0;
+color: #000;
+}
+#skills .skill_icons a span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+text-align: center;
+color: var(--primary-black);
+display: block;
+}
+#skills .skill_icons a:hover,
+#skills .skill_icons a:focus{
+    background: #000;
+    color: #fff;
+}
+#skills .skill_icons a span:hover{
+    display: none;
+}
+#skills .skill_icons a:hover iconify-icon{
+    transform: translateY(30px);
+}
