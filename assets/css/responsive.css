@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     nav {
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin-top: 0px;
@@ -67,6 +67,7 @@
 
     #skills .skill_icons a:hover iconify-icon {
         transform: translateY(20px);
+        transition: 0s;
     }
 
     /* experience */
@@ -101,4 +102,20 @@
     #projects h5 {
         margin-top: 10px;
     }
+    /* contact */
+#contact input {
+    border: 1.40px solid var(--primary-black);
+    border-radius: 4px;
+    padding: 16px 24px;
+    width: 343px;
+    height: 56px;
+  }
+  
+  #contact textarea {
+    border: 1.40px solid var(--primary-black);
+    border-radius: 4px;
+    padding: 16px 24px;
+    width: 343px;
+    height: 140px;
+  }
 }

@@ -14,6 +14,8 @@
 * {
   box-sizing: border-box;
   font-family: var(--font-family);
+}
+body{
   scroll-behavior: smooth;
 }
 
@@ -255,6 +257,7 @@ nav {
 
 #skills .skill_icons a:hover iconify-icon {
   transform: translateY(30px);
+  transition: 0.6s;
 }
 
 /* experience */
@@ -516,4 +519,34 @@ nav {
   line-height: 125%;
   letter-spacing: -0.02em;
   color: var(--zinc-500);
+}
+#contact .sub_btn button{
+  border-radius: 4px;
+padding: 16px 20px;
+width: 173px;
+height: 56px;
+background: var(--primary-black);
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 15px;
+align-items: center;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: var(--primary-white);
+}
+#contact .act_icons a{
+  border: 2px solid var(--primary-black);
+border-radius: 4px;
+padding: 16px;
+width: 56px;
+height: 56px;
+font-size: 20px;
+color: #000;
+margin: 2px 12px;
+display: inline-block;
+transition: 0.3s;
+}
+#contact .act_icons a:hover{
+  background: #000;
+  color: #fff;
 }
