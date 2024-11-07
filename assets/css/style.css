@@ -16,7 +16,10 @@
   font-family: var(--font-family);
 }
 body{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+}
+html{
+  scroll-behavior: smooth !important;
 }
 
 h1,
