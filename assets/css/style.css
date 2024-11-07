@@ -450,6 +450,7 @@ nav {
   box-shadow: 0 8px 16px -6px rgba(24, 39, 75, 0.08), 0 6px 8px -6px rgba(24, 39, 75, 0.12);
   background: var(--primary-white);
   cursor: pointer;
+  transition: 0.5s;
 }
 
 #testimonial .bg-t:hover {
@@ -491,6 +492,9 @@ nav {
 }
 
 /* contact */
+#contact{
+  margin-bottom: 60px;
+}
 #contact input {
   outline: none;
   border: 1.40px solid var(--primary-black);
@@ -545,8 +549,76 @@ color: #000;
 margin: 2px 12px;
 display: inline-block;
 transition: 0.3s;
+justify-content: center;
 }
 #contact .act_icons a:hover{
   background: #000;
   color: #fff;
+}
+#contact .right-side h3{
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 117%;
+letter-spacing: -0.02em;
+color: var(--primary-black);
+margin-top: 66px;
+}
+#contact .right-side h3 span{
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  -webkit-text-stroke: 3px #000;
+  paint-order: stroke;
+}
+#contact .right-side p{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: var(--zinc-500);
+margin: 20px 0 40px;
+}
+#contact .right-side h4{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 114%;
+  letter-spacing: -0.02em;
+  color: var(--primary-black);
+}
+#contact .right-side h4 span{
+ display: block;
+}
+/* footer */
+footer .bg_cont{
+  background: var(--primary-black);
+  height: 100px;
+}
+footer h3{
+  color: #fff;
+  padding-top: 30px;
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+color: var(--primary-white);
+}
+footer p{
+  font-family: var(--font-family);
+  padding-top: 30px;
+font-weight: 600;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+text-align: right;
+color: var(--primary-white);
+}
+footer p span{
+  display: block;
 }

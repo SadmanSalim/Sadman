@@ -118,4 +118,18 @@
     width: 343px;
     height: 140px;
   }
+  #contact .sub_btn button{
+    display: inline-block;
+margin-left: 22px !important;
+  }
+  footer p{
+    padding-top: 10px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 12px;
+line-height: 167%;
+letter-spacing: 0.02em;
+text-align: right;
+color: var(--primary-white);
+}
 }
