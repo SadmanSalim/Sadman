@@ -132,4 +132,7 @@ letter-spacing: 0.02em;
 text-align: right;
 color: var(--primary-white);
 }
+.bg-t{
+    margin: 30px 0;
+}
 }
