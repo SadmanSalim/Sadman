@@ -135,4 +135,8 @@ color: var(--primary-white);
 .bg-t{
     margin: 30px 0;
 }
+#contact .right-side h4{
+    font-size: 20px;
+
+  }
 }
