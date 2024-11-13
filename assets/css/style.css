@@ -10,6 +10,15 @@
   --zinc-800: #27272a;
   --font-family: "Sora", sans-serif;
 }
+::-webkit-scrollbar{
+  width: 5px;
+  background: #fff;
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background: #000;
+  border-radius: 5px;
+}
 
 * {
   box-sizing: border-box;
@@ -639,6 +648,7 @@ footer p span{
   bottom: 15px;
   opacity: 0;
   transition: opacity 0.3s;
+  border: 1px solid #fff;
 }
 .backtop.show {
   opacity: 1;
