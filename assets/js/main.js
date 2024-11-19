@@ -24,5 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
         behavior: 'smooth'
     });
 });
-
-  
+document.addEventListener('click', function(event){
+    const sidebar = document.querySelector('.sidebar');
+    if(!event.target.classList.contains(sidebar)){
+        sidebar.classList.remove('show');
+    }
+});

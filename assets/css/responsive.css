@@ -142,4 +142,19 @@ color: var(--primary-white);
   br{
     display: none;
   }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+    }
+    
+    .collapse.show.sidebar {
+    transform: translateX(0);
+    }
 }
